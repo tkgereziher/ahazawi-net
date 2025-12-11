@@ -1,0 +1,6 @@
+@ahazawi_HostAddress = http://localhost:5199
+
+GET {{ahazawi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
