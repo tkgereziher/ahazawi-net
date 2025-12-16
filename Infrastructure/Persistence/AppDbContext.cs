@@ -1,4 +1,4 @@
-using System.Reflection;
+// using System.Reflection; (Removed)
 using Ahazawi.Domain.Courses;
 using Ahazawi.Domain.Progress;
 using Ahazawi.Domain.Students;
@@ -20,7 +20,7 @@ public class AppDbContext : DbContext
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
-        modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
+        modelBuilder.ApplyConfigurationsFromAssembly(System.Reflection.Assembly.GetExecutingAssembly());
         base.OnModelCreating(modelBuilder);
     }
 }
