@@ -1,9 +1,9 @@
-using Ahazawi.Application.Common.Interfaces;
-using Ahazawi.Domain.Progress;
-using Ahazawi.Domain.Students;
+using Momona.Application.Common.Interfaces;
+using Momona.Domain.Progress;
+using Momona.Domain.Students;
 using MediatR;
 
-namespace Ahazawi.Application.Progress.Commands.CompleteLesson;
+namespace Momona.Application.Progress.Commands.CompleteLesson;
 
 public class CompleteLessonHandler : IRequestHandler<CompleteLessonCommand, Unit>
 {

@@ -1,6 +1,6 @@
-using Ahazawi.Domain.Courses;
+using Momona.Domain.Courses;
 using MediatR;
 
-namespace Ahazawi.Application.Courses.Queries.GetCourses;
+namespace Momona.Application.Courses.Queries.GetCourses;
 
 public record GetCoursesQuery : IRequest<IEnumerable<Course>>;

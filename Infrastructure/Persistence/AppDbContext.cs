@@ -1,10 +1,10 @@
 // using System.Reflection; (Removed)
-using Ahazawi.Domain.Courses;
-using Ahazawi.Domain.Progress;
-using Ahazawi.Domain.Students;
+using Momona.Domain.Courses;
+using Momona.Domain.Progress;
+using Momona.Domain.Students;
 using Microsoft.EntityFrameworkCore;
 
-namespace Ahazawi.Infrastructure.Persistence;
+namespace Momona.Infrastructure.Persistence;
 
 public class AppDbContext : DbContext
 {

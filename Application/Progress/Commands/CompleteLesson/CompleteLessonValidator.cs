@@ -1,6 +1,6 @@
 using FluentValidation;
 
-namespace Ahazawi.Application.Progress.Commands.CompleteLesson;
+namespace Momona.Application.Progress.Commands.CompleteLesson;
 
 public class CompleteLessonValidator : AbstractValidator<CompleteLessonCommand>
 {

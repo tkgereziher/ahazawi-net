@@ -1,6 +1,6 @@
 using FluentValidation;
 
-namespace Ahazawi.Application.Students.Commands.CreateStudent;
+namespace Momona.Application.Students.Commands.CreateStudent;
 
 public class CreateStudentValidator : AbstractValidator<CreateStudentCommand>
 {

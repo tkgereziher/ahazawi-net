@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace Ahazawi.Domain.Common;
+namespace Momona.Domain.Common;
 
 public abstract class BaseEntity<TId>
 {

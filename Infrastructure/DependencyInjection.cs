@@ -1,13 +1,13 @@
-using Ahazawi.Application.Common.Interfaces;
-using Ahazawi.Infrastructure.Files;
-using Ahazawi.Infrastructure.Identity;
-using Ahazawi.Infrastructure.Persistence;
-using Ahazawi.Infrastructure.Persistence.Repositories;
+using Momona.Application.Common.Interfaces;
+using Momona.Infrastructure.Files;
+using Momona.Infrastructure.Identity;
+using Momona.Infrastructure.Persistence;
+using Momona.Infrastructure.Persistence.Repositories;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace Ahazawi.Infrastructure;
+namespace Momona.Infrastructure;
 
 public static class DependencyInjection
 {

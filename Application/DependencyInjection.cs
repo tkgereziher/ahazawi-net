@@ -1,10 +1,10 @@
 using System.Reflection;
-using Ahazawi.Application.Common.Behaviors;
+using Momona.Application.Common.Behaviors;
 using FluentValidation;
 using MediatR;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace Ahazawi.Application;
+namespace Momona.Application;
 
 public static class DependencyInjection
 {

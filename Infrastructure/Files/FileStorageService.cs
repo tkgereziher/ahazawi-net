@@ -1,4 +1,4 @@
-namespace Ahazawi.Infrastructure.Files;
+namespace Momona.Infrastructure.Files;
 
 public class FileStorageService
 {

@@ -1,7 +1,7 @@
-using Ahazawi.Domain.Abstractions;
-using Ahazawi.Domain.Common;
+using Momona.Domain.Abstractions;
+using Momona.Domain.Common;
 
-namespace Ahazawi.Domain.Students;
+namespace Momona.Domain.Students;
 
 public class Student : BaseEntity<StudentId>, IAggregateRoot
 {

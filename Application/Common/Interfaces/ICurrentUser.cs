@@ -1,4 +1,4 @@
-namespace Ahazawi.Application.Common.Interfaces;
+namespace Momona.Application.Common.Interfaces;
 
 public interface ICurrentUser
 {

@@ -16,8 +16,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Application\Ahazawi.Application.csproj" />
-    <ProjectReference Include="..\Infrastructure\Ahazawi.Infrastructure.csproj" />
+    <ProjectReference Include="..\Application\Momona.Application.csproj" />
+    <ProjectReference Include="..\Infrastructure\Momona.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>

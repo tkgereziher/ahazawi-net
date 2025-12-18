@@ -1,4 +1,4 @@
-namespace Ahazawi.Domain.Abstractions;
+namespace Momona.Domain.Abstractions;
 
 public interface IAggregateRoot
 {

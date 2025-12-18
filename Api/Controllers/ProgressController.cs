@@ -1,9 +1,9 @@
-using Ahazawi.Application.Progress.Commands.CompleteLesson;
-using Ahazawi.Application.Progress.Queries.GetCourseProgress;
+using Momona.Application.Progress.Commands.CompleteLesson;
+using Momona.Application.Progress.Queries.GetCourseProgress;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Ahazawi.Api.Controllers;
+namespace Momona.Api.Controllers;
 
 [ApiController]
 [Route("api/[controller]")]

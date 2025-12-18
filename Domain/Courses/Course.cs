@@ -1,7 +1,7 @@
-using Ahazawi.Domain.Abstractions;
-using Ahazawi.Domain.Common;
+using Momona.Domain.Abstractions;
+using Momona.Domain.Common;
 
-namespace Ahazawi.Domain.Courses;
+namespace Momona.Domain.Courses;
 
 public class Course : BaseEntity<Guid>, IAggregateRoot
 {

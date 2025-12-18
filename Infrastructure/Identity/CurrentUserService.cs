@@ -1,8 +1,8 @@
 using System.Security.Claims;
-using Ahazawi.Application.Common.Interfaces;
+using Momona.Application.Common.Interfaces;
 using Microsoft.AspNetCore.Http;
 
-namespace Ahazawi.Infrastructure.Identity;
+namespace Momona.Infrastructure.Identity;
 
 public class CurrentUserService : ICurrentUser
 {

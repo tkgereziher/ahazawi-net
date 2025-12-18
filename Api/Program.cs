@@ -1,7 +1,7 @@
-using Ahazawi.Api.Filters;
-using Ahazawi.Api.Middlewares;
-using Ahazawi.Application;
-using Ahazawi.Infrastructure;
+using Momona.Api.Filters;
+using Momona.Api.Middlewares;
+using Momona.Application;
+using Momona.Infrastructure;
 
 var builder = WebApplication.CreateBuilder(args);
 

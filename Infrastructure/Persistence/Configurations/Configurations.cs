@@ -1,10 +1,10 @@
-using Ahazawi.Domain.Courses;
-using Ahazawi.Domain.Progress;
-using Ahazawi.Domain.Students;
+using Momona.Domain.Courses;
+using Momona.Domain.Progress;
+using Momona.Domain.Students;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
-namespace Ahazawi.Infrastructure.Persistence.Configurations;
+namespace Momona.Infrastructure.Persistence.Configurations;
 
 public class StudentConfiguration : IEntityTypeConfiguration<Student>
 {

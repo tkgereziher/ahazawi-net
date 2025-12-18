@@ -1,4 +1,4 @@
-namespace Ahazawi.Application.Common.Exceptions;
+namespace Momona.Application.Common.Exceptions;
 
 public class NotFoundException : Exception
 {

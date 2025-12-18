@@ -1,8 +1,8 @@
 using System.Net;
 using System.Text.Json;
-using Ahazawi.Application.Common.Exceptions;
+using Momona.Application.Common.Exceptions;
 
-namespace Ahazawi.Api.Middlewares;
+namespace Momona.Api.Middlewares;
 
 public class ExceptionHandlingMiddleware
 {

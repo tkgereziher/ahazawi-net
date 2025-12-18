@@ -1,8 +1,8 @@
-using Ahazawi.Application.Common.Interfaces;
-using Ahazawi.Domain.Students;
+using Momona.Application.Common.Interfaces;
+using Momona.Domain.Students;
 using MediatR;
 
-namespace Ahazawi.Application.Students.Queries.GetStudentById;
+namespace Momona.Application.Students.Queries.GetStudentById;
 
 public class GetStudentByIdHandler : IRequestHandler<GetStudentByIdQuery, Student?>
 {

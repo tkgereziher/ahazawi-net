@@ -1,6 +1,6 @@
-using Ahazawi.Domain.Progress;
+using Momona.Domain.Progress;
 using MediatR;
 
-namespace Ahazawi.Application.Progress.Queries.GetCourseProgress;
+namespace Momona.Application.Progress.Queries.GetCourseProgress;
 
 public record GetCourseProgressQuery(Guid StudentId, Guid CourseId) : IRequest<StudentProgress?>;

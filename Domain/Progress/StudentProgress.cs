@@ -1,8 +1,8 @@
-using Ahazawi.Domain.Abstractions;
-using Ahazawi.Domain.Common;
-using Ahazawi.Domain.Students;
+using Momona.Domain.Abstractions;
+using Momona.Domain.Common;
+using Momona.Domain.Students;
 
-namespace Ahazawi.Domain.Progress;
+namespace Momona.Domain.Progress;
 
 public class StudentProgress : BaseEntity<Guid>, IAggregateRoot
 {

@@ -1,8 +1,8 @@
-using Ahazawi.Application.Common.Interfaces;
-using Ahazawi.Domain.Courses;
+using Momona.Application.Common.Interfaces;
+using Momona.Domain.Courses;
 using MediatR;
 
-namespace Ahazawi.Application.Courses.Queries.GetCourses;
+namespace Momona.Application.Courses.Queries.GetCourses;
 
 
 

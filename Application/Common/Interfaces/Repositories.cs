@@ -1,8 +1,8 @@
-using Ahazawi.Domain.Students;
-using Ahazawi.Domain.Courses;
-using Ahazawi.Domain.Progress;
+using Momona.Domain.Students;
+using Momona.Domain.Courses;
+using Momona.Domain.Progress;
 
-namespace Ahazawi.Application.Common.Interfaces;
+namespace Momona.Application.Common.Interfaces;
 
 public interface IStudentRepository
 {

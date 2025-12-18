@@ -1,4 +1,4 @@
-# Ahazawi - Clean Architecture Solution
+# Momona - Clean Architecture Solution
 
 This solution is built using **Clean Architecture** principles with .NET 8.
 
@@ -6,12 +6,12 @@ This solution is built using **Clean Architecture** principles with .NET 8.
 
 The solution adheres to the Dependency Rule, where dependencies flow inwards. Core business logic is independent of frameworks and external concerns.
 
-### 1. **Domain** (`Ahazawi.Domain`)
+### 1. **Domain** (`Momona.Domain`)
 - **Role**: The core of the application. Contains enterprise logic and types.
 - **Contents**: Entities (`Student`, `Course`), Value Objects, Domain Events, and Aggregate Roots.
 - **Dependencies**: None.
 
-### 2. **Application** (`Ahazawi.Application`)
+### 2. **Application** (`Momona.Application`)
 - **Role**: Contains business logic and use cases. Orchestrates the flow of data.
 - **Contents**: 
     - **Features** (Commands/Queries): Uses **CQRS** pattern providing specific handlers for operations.
@@ -19,7 +19,7 @@ The solution adheres to the Dependency Rule, where dependencies flow inwards. Co
     - **Interfaces**: Abstractions for infrastructure (e.g., `IStudentRepository`, `ICurrentUser`).
 - **Dependencies**: `Domain`.
 
-### 3. **Infrastructure** (`Ahazawi.Infrastructure`)
+### 3. **Infrastructure** (`Momona.Infrastructure`)
 - **Role**: Implements interfaces defined in Application. Handles external concerns.
 - **Contents**: 
     - **Persistence**: `AppDbContext` (EF Core), Repositories.
@@ -27,7 +27,7 @@ The solution adheres to the Dependency Rule, where dependencies flow inwards. Co
     - **Files**: `FileStorageService`.
 - **Dependencies**: `Application`, `Domain`.
 
-### 4. **Api** (`Ahazawi.Api`)
+### 4. **Api** (`Momona.Api`)
 - **Role**: The entry point of the application.
 - **Contents**: ASP.NET Core Web API Controllers, Filters, and Middleware.
 - **Dependencies**: `Application`, `Infrastructure`.
@@ -58,7 +58,7 @@ dotnet ef database update -p Infrastructure -s Api
 ### Run
 To start the API:
 ```bash
-dotnet run --project Api/Ahazawi.Api.csproj
+dotnet run --project Api/Momona.Api.csproj
 ```
 The API will be available at `https://localhost:5001` (or similar, check console output).
 API Documentation (Swagger) can be accessed at `/swagger`.
@@ -77,5 +77,5 @@ API Documentation (Swagger) can be accessed at `/swagger`.
 ├── Application/     # Business Logic & Use Cases
 ├── Infrastructure/  # External details (DB, File System)
 ├── Api/             # Entry Point (Controllers)
-└── Ahazawi.sln
+└── Momona.sln
 ```

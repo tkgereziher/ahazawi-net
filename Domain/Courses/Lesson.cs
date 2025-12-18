@@ -1,6 +1,6 @@
-using Ahazawi.Domain.Common;
+using Momona.Domain.Common;
 
-namespace Ahazawi.Domain.Courses;
+namespace Momona.Domain.Courses;
 
 public class Lesson : BaseEntity<Guid>
 {

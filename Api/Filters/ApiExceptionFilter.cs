@@ -1,8 +1,8 @@
-using Ahazawi.Application.Common.Exceptions;
+using Momona.Application.Common.Exceptions;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Filters;
 
-namespace Ahazawi.Api.Filters;
+namespace Momona.Api.Filters;
 
 public class ApiExceptionFilterAttribute : ExceptionFilterAttribute
 {

@@ -1,8 +1,8 @@
-using Ahazawi.Application.Common.Interfaces;
-using Ahazawi.Domain.Students;
+using Momona.Application.Common.Interfaces;
+using Momona.Domain.Students;
 using MediatR;
 
-namespace Ahazawi.Application.Students.Commands.CreateStudent;
+namespace Momona.Application.Students.Commands.CreateStudent;
 
 public class CreateStudentHandler : IRequestHandler<CreateStudentCommand, Guid>
 {

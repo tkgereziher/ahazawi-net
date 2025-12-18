@@ -1,6 +1,6 @@
-using Ahazawi.Domain.Abstractions;
+using Momona.Domain.Abstractions;
 
-namespace Ahazawi.Domain.Common;
+namespace Momona.Domain.Common;
 
 public abstract record DomainEvent(Guid Id);
 

@@ -1,9 +1,9 @@
-using Ahazawi.Application.Students.Commands.CreateStudent;
-using Ahazawi.Application.Students.Queries.GetStudentById;
+using Momona.Application.Students.Commands.CreateStudent;
+using Momona.Application.Students.Queries.GetStudentById;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Ahazawi.Api.Controllers;
+namespace Momona.Api.Controllers;
 
 [ApiController]
 [Route("api/[controller]")]

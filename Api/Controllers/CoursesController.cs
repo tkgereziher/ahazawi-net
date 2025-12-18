@@ -1,9 +1,9 @@
-using Ahazawi.Application.Courses.Queries.GetCourseDetails;
-using Ahazawi.Application.Courses.Queries.GetCourses;
+using Momona.Application.Courses.Queries.GetCourseDetails;
+using Momona.Application.Courses.Queries.GetCourses;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Ahazawi.Api.Controllers;
+namespace Momona.Api.Controllers;
 
 [ApiController]
 [Route("api/[controller]")]

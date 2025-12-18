@@ -1,11 +1,11 @@
-using Ahazawi.Application.Common.Interfaces;
-using Ahazawi.Domain.Courses;
-using Ahazawi.Domain.Progress;
-using Ahazawi.Domain.Students;
+using Momona.Application.Common.Interfaces;
+using Momona.Domain.Courses;
+using Momona.Domain.Progress;
+using Momona.Domain.Students;
 using Microsoft.EntityFrameworkCore;
-using Ahazawi.Infrastructure.Persistence;
+using Momona.Infrastructure.Persistence;
 
-namespace Ahazawi.Infrastructure.Persistence.Repositories;
+namespace Momona.Infrastructure.Persistence.Repositories;
 
 public class StudentRepository : IStudentRepository
 {
